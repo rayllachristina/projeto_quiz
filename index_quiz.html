@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-br">
+<!-- Define a linguagem do documento como Português -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8, garantindo que caracteres especiais sejam exibidos corretamente -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a viewport para permitir responsividade em dispositivos móveis -->
+    <title>Quiz Interativo</title>
+    <!-- Define o título da página que aparecerá na aba do navegador -->
+    <link rel="stylesheet" href="style_quiz.css">
+    <!-- Vincula o arquivo CSS externo para estilização da página -->
+</head>
+
+<body>
+    <!-- Início do corpo do documento onde todo o conteúdo visível será colocado -->
+    <div class="container">
+        <!-- Container principal da aplicação, usado para agrupar todo o conteúdo -->
+        <h1>Quiz Interativo</h1>
+        <!-- Título do quiz exibido na página -->
+        <div id="quiz-container">
+            <!-- Container do quiz que agrupa os elementos do questionário -->
+            <div id="question-container">
+                <!-- Container da pergunta que agrupa a pergunta e os botões de resposta -->
+                <div id="question">Pergunta</div>
+                <!-- Div para exibir a pergunta -->
+                <div id="answer-buttons" class="btn-container">
+                    <!-- Container para os botões de resposta, organizados como botões -->
+                    <button class="btn">Resposta 1</button>
+                    <!-- Botão de resposta 1 -->
+                    <button class="btn">Resposta 2</button>
+                    <!-- Botão de resposta 2 -->
+                    <button class="btn">Resposta 3</button>
+                    <!-- Botão de resposta 3 -->
+                    <button class="btn">Resposta 4</button>
+                    <!-- Botão de resposta 4 -->
+                </div>
+            </div>
+            <div id="controls">
+                <!-- Container para os controles adicionais do quiz -->
+                <button id="next-btn" class="btn">Próxima</button>
+                <!-- Botão para passar para a próxima pergunta -->
+                <div id="score">Pontuação: 0</div>
+                <!-- Exibição da pontuação atual do jogador -->
+                <div id="timer">Tempo: 0</div>
+                <!-- Exibição do temporizador -->
+            </div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+    <!-- Vincula o arquivo JavaScript externo que contém a lógica do quiz -->
+</body>
+
+</html>
+<!-- Fim do documento HTML -->
