@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     /* Define a fonte usada para todo o texto no corpo da página. Arial é uma fonte simples e comum, e sans-serif significa que não tem aquelas "perninhas" nas letras. */
-    background-color: #970404;
+    background-color: #1b0133;
     /* Define a cor de fundo da página. Este valor hexadecimal representa um tom de vermelho escuro. */
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@ body {
 }
 
 .btn {
-    background-color: #b40808;
+    background-color: #523361;
     /* Define a cor de fundo dos botões como um vermelho intenso. */
     color: white;
     /* Define a cor do texto dos botões como branca. */
@@ -55,7 +55,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #3a084e;
     /* Muda a cor de fundo dos botões para um tom de azul quando o usuário passa o mouse sobre eles, indicando interatividade. */
 }
 
